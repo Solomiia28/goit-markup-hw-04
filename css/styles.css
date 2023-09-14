@@ -49,9 +49,8 @@ img{
       margin: 0 auto;
       padding:0 15px;
     justify-content: center;
-
-
   }
+
  .header-inner{
      display: flex;
      align-items: center;
@@ -144,7 +143,15 @@ img{
 .hero_section{
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0 auto;
+    width: 1440;
     background-color: var(--c-primary);
+    background-image:url(/images/background-image/people-office\ 1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    
+    
 }
 
 .heder-one{
