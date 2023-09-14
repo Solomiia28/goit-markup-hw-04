@@ -1,0 +1,348 @@
+:root{
+
+    --c-brand:#4d5ae5;
+    --c-primary:#2e2f42;
+    --c-primary-slate:#434455;
+    --с-variable:#404bbf;
+    --c-background-white:#FFFFFF;
+    --c-background-light:#F4F4FD;
+    --c-background-portfolio:#E7E9FC;
+}
+  /*Base*/
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--c-primary-slate);
+    background-color: var(--c-background-white);
+}
+ ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+  /*End Base*/
+
+  /*logo section*/
+  .container {
+      width: 1158px;
+      margin: 0 auto;
+      padding:0 15px;
+    justify-content: center;
+
+
+  }
+ .header-inner{
+     display: flex;
+     align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .header-address{
+    display:flex;
+    align-items:center;
+    padding: 24px 24px ;
+ }
+ .nav-list{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .header-class{
+   border-bottom: 1px solid var(--c-background-portfolio);
+   display: flex;
+  }
+  
+.logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.logo-style{
+    color: var(--c-brand);
+    margin-right: 76px;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+}
+.ul-logo{
+    display: flex;
+    gap: 40px;
+
+}
+.li-logo{
+    
+}
+.ul-address{
+    display: flex;
+    gap: 40px;
+}
+.logo-studio{
+    color: var(--c-primary);
+    font-family: Raleway, sans-serif;
+
+}
+.nav-link{
+    color: var(--c-primary);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing:0.02em;
+    padding: 24px 0;
+    display: inline-block;
+    
+    
+
+}
+.nav-link:hover{
+    color: var(--с-variable);
+}
+.nav-link:focus{
+    color: var(--с-variable);
+}
+.header-address{
+    font-style:normal;
+}
+
+.contact{
+    color: var(--c-primary-slate);
+    line-height:1.5;
+    letter-spacing:0.02em;
+}
+.contact:hover{
+    color: var(--с-variable);
+}
+.contact:focus{
+    color: var(--с-variable);
+}
+/*End logo section*/
+
+/*Hero section*/
+.hero_section{
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-color: var(--c-primary);
+}
+
+.heder-one{
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--c-background-white);
+    margin-bottom: 48px;
+}
+
+.button{
+    background-color: var(--c-brand);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--c-background-white);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px 32px;
+}
+.button:hover{
+    background-color: var(--с-variable);
+}
+.button:focus{
+    background-color: var(--с-variable);
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+/*End hero section*/
+
+/*section-description-of-professions*/
+.section-description-of-professions {
+    background-color: var(--c-background-white);
+    padding: 120px 0;
+}
+
+
+.ul-description-of-professions{
+    gap: 24px;
+
+}
+.li-description-of-professions{
+    flex-basis: calc((100% - 72px) / 4);
+}
+.heder-three{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+    margin-bottom: 8px;
+}
+.p-heder-three{
+    line-height:1.5;
+    letter-spacing:0.02em;
+    width: 264px;
+}
+/*End section-description-of-professions*/
+
+/*section-our-team*/
+
+.section-our-team{
+    background-color: var(--c-background-light);
+    padding: 120px 0;
+    
+}
+.header-two-our-team{
+    font-size: 36px;
+    letter-spacing :0.02em;
+    line-height:1.11;
+    text-align: center;
+    text-transform:capitalize;
+    color: var(--c-primary);
+    margin-bottom: 72px;
+}
+.li-our-team{
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.container-our-team{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: var(--c-background-white);
+}
+
+.heder-three-o-team {
+ margin-bottom: 8px;
+ text-align: center;
+}
+.p-heder-three-our-team {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: var(--c-primary-slate);
+    text-align:center;
+    
+}
+
+/*End section-our-team*/
+
+/*section-our-portfolio*/
+
+.section{
+    color: var(--c-background-white);
+}
+.heder-two-our-portfolio{
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--c-primary);
+    margin-bottom: 72px;
+}
+.ul-our-portfolio{
+    flex-wrap: wrap;
+    row-gap: 48px;
+    margin-bottom: 0px;
+}
+.li-our-portfolio{
+    width: calc((100% - 48px) / 3);
+}
+.container-our-portfolio{
+    padding:32px 16px;
+    border: 1px solid var(--c-background-portfolio);
+    border-top: none;
+
+}
+.heder-three-our-portfolio{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.p-heder-three-portfolio{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: var(--c-primary-slate);
+    font-style: normal;
+    font-weight: 400;
+}
+/* End section-our-portfolio*/
+
+.footer{
+    background-color: var(--c-primary);
+    padding: 100px 0;
+}
+.footer-logo{
+    font-weight:700;
+    font-size: 18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    text-transform:uppercase;  
+}
+.a-footer-logo{
+    font-family: Raleway, sans-serif;
+    display: inline-block;
+    margin-bottom: 16px;
+    color: var(--c-brand);
+}
+.footer-logo-studio{
+    color: var(--c-background-light);
+}
+.p-footer-logo-studio{
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--c-background-light);
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
