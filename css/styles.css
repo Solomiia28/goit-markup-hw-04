@@ -7,6 +7,7 @@
     --c-background-white:#FFFFFF;
     --c-background-light:#F4F4FD;
     --c-background-portfolio:#E7E9FC;
+    --c-border:#8E8F99;
 }
   /*Base*/
 body {
@@ -222,7 +223,7 @@ img{
     padding: 120px 0;
 }
 
-.decription-icon{
+.decription-icon-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,7 +231,9 @@ img{
     background-color: var(--c-background-light);
     border-radius: 4px;
     margin-bottom: 8px;
-    
+    width: 264px;
+    flex-shrink: 0;
+        
 }
 .ul-description-of-professions{
     gap: 24px;
