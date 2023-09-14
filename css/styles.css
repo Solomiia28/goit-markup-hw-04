@@ -222,7 +222,16 @@ img{
     padding: 120px 0;
 }
 
-
+.decription-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--c-background-light);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    
+}
 .ul-description-of-professions{
     gap: 24px;
 
