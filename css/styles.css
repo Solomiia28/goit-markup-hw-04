@@ -149,7 +149,7 @@ img{
 /*Hero section*/
 .hero_section{
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(/images/background-image/people-office\ 1.jpg);
-    max-width:1440px;
+    width:1440px;
     background-size: cover;
     background-color: var(--c-primary);
     background-repeat: no-repeat ;
