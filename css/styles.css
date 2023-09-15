@@ -100,7 +100,7 @@ img{
 }
 .li-logo{
     display: flex;
-    color: #404bbf;
+    
     
 }
 .ul-address{
@@ -113,7 +113,7 @@ img{
 
 }
 .nav-link{
-    color: var(--c-primary);
+    color:#404bbf;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing:0.02em;
