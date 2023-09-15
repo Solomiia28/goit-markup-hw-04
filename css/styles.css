@@ -49,7 +49,7 @@ img{
       width: 1158px;
       margin: 0 auto;
       padding:0 15px;
-    justify-content: center;
+     justify-content: center;
   }
 
  .header-inner{
@@ -99,6 +99,7 @@ img{
 
 }
 .li-logo{
+    display: flex;
     
 }
 .ul-address{
@@ -156,11 +157,11 @@ img{
 
 /*Hero section*/
 .hero_section{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(/images/background-image/people-office\ 1.jpg);
-    width:1440px;
-    background-size: cover;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/background-image/people-office\ 1.jpg);
+     max-width:1440px;
     background-color: var(--c-primary);
     background-repeat: no-repeat ;
+    background-size: cover;
     background-position: center; 
     padding-top: 188px;
     padding-bottom: 188px;
