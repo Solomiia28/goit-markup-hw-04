@@ -229,7 +229,7 @@ img{
     padding: 120px 0;
 }
 
-.decription-icon-container{
+.box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,6 +244,7 @@ img{
 }
 .ul-description-of-professions{
     gap: 24px;
+    
 
 }
 .li-description-of-professions{
