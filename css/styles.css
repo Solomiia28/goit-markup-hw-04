@@ -358,6 +358,10 @@ img{
     color: var(--c-primary);
     margin-bottom: 72px;
 }
+.images-porfolio{
+    position: relative;
+    overflow: hidden;
+}
 .ul-our-portfolio{
     flex-wrap: wrap;
     row-gap: 48px;
@@ -396,6 +400,7 @@ img{
     font-style: normal;
     font-weight: 400;
 }
+
 .p-heder-three-portfolio:hover{
     transform: translateY(0%);
 }
