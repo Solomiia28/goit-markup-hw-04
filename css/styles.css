@@ -113,7 +113,7 @@ img{
 
 }
 .nav-link{
-    color:#404bbf;
+    color:var(--c-primary);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing:0.02em;
@@ -131,8 +131,8 @@ img{
     background-color: var(--с-variable);
     border-radius: 2px;
 }
-.nav-link:hover{
-    color: var(--с-variable);
+.nav-link:hover{ 
+   color: #404bbf;
 }
 .nav-link:focus{
     color: var(--с-variable);
