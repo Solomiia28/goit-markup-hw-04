@@ -52,7 +52,6 @@ img{
       width: 1158px;
       margin: 0 auto;
       padding:0 15px;
-     justify-content: center;
   }
 
  .header-inner{
@@ -434,7 +433,6 @@ img{
 }
 .footer-logo-container{
     margin-right:120px;
-    margin-left:156px;
 }
 .a-footer-logo{
     font-family: Raleway, sans-serif;
